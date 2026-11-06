@@ -3,83 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>عيادة الدكتور إسلام زويد | ابتسامتك تبدأ من هنا</title>
+    <title>عيادة الدكتور إسلام زويد | ابتسامتك سر ثقتك</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700;900&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Cairo', sans-serif; }
-        .bg-medical { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); }
+        .bg-medical { background-color: #0f172a; }
+        .text-medical { color: #0f172a; }
+        .accent-color { color: #0ea5e9; }
     </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
 
-    <!-- Top Bar -->
-    <div class="bg-sky-600 text-white text-xs py-2 text-center font-medium">
-        معاينة حصرية صُممت لـ عيادة أسنان الدكتور اسلام زويد - قابلة للتخصيص بالكامل
+    <!-- الشريط العلوي -->
+    <div class="bg-sky-600 text-white text-xs py-2 text-center">
+        معاينة حصرية صُممت خصيصاً لـ عيادة أسنان الدكتور اسلام زويد - قابلة للتخصيص بالكامل وربطها بنطاقكم الخاص
     </div>
 
     <!-- Hero Section -->
     <header class="bg-medical text-white py-16 px-6 text-center">
-        <h1 class="text-3xl md:text-5xl font-bold mb-4">عيادة الدكتور إسلام زويد</h1>
-        <p class="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto">نصنع ابتسامتك بثقة واحترافية في قلب الرياض. دقة، أمانة، ونتائج استثنائية.</p>
-        <div class="flex flex-col md:flex-row gap-4 justify-center">
-            <a href="https://wa.me/966544239856" class="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full font-bold text-lg transition shadow-lg">حجز كشف عبر الواتساب</a>
-            <a href="tel:966544239856" class="bg-white text-sky-900 hover:bg-gray-100 px-8 py-4 rounded-full font-bold text-lg transition shadow-lg">اتصل بنا الآن</a>
+        <h1 class="text-4xl md:text-5xl font-bold mb-6">عيادة الدكتور إسلام زويد</h1>
+        <p class="text-xl mb-8 text-gray-300">نصنع ابتسامتك بأحدث التقنيات وبأيدي أمينة في قلب الرياض</p>
+        <div class="flex flex-col md:flex-row justify-center gap-4">
+            <a href="https://wa.me/966544239856" class="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full font-bold text-lg transition">حجز كشف عبر واتساب</a>
+            <a href="tel:+966544239856" class="bg-white text-medical hover:bg-gray-200 px-8 py-4 rounded-full font-bold text-lg transition">اتصل بنا الآن</a>
         </div>
     </header>
 
-    <!-- Services Section -->
-    <section class="py-16 px-6 max-w-5xl mx-auto">
-        <h2 class="text-3xl font-bold text-center mb-12">خدماتنا التخصصية</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {['زراعة الأسنان', 'ابتسامة هوليوود', 'علاج العصب', 'تقويم الأسنان', 'تنظيف وتبييض', 'طب أسنان الأطفال'].map(service => (
-                <div class="bg-white p-6 rounded-2xl shadow-md border border-gray-100 hover:border-sky-500 transition text-center">
-                    <h3 class="text-xl font-semibold text-sky-900">{service}</h3>
-                </div>
-            ))}
-        </div>
-    </section>
-
-    <!-- Reviews Section -->
-    <section class="bg-gray-100 py-16 px-6">
-        <div class="max-w-3xl mx-auto bg-white p-8 rounded-3xl shadow-xl">
-            <div class="flex items-center justify-between mb-6">
-                <h2 class="text-2xl font-bold">آراء مراجعينا</h2>
-                <div class="flex items-center gap-2">
-                    <span class="text-3xl font-black text-yellow-500">5.0</span>
-                    <div class="text-sm text-gray-500">5,021 تقييم موثق</div>
-                </div>
+    <!-- الخدمات -->
+    <section class="py-16 px-6 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-12">خدماتنا المتميزة</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            
+            <div class="bg-white p-6 rounded-xl shadow-lg border-b-4 border-sky-500">
+                <h3 class="text-xl font-bold mb-3">زراعة الأسنان</h3>
+                <p class="text-gray-600">استعد وظيفة أسنانك وجمال ابتسامتك مع تقنيات الزراعة الحديثة والأكثر دقة.</p>
             </div>
-            <p class="text-gray-600 italic leading-relaxed">"أنصح بالتعامل مع الدكتور إسلام زويد بدون أي تردد؛ دكتور يشتغل بضمير وأمانة عالية ويخاف الله في شغله، يده خفيفة جداً ويشرح كل خطوة ليريح المراجع نفسياً. طلعت من عنده بنتيجة ممتازة تفتح النفس تخليني أبتسم بكل ثقة."</p>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg border-b-4 border-sky-500">
+                <h3 class="text-xl font-bold mb-3">ابتسامة هوليوود</h3>
+                <p class="text-gray-600">تصميم ابتسامة المشاهير باستخدام قشور السيراميك عالية الجودة لتناسب ملامح وجهك.</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg border-b-4 border-sky-500">
+                <h3 class="text-xl font-bold mb-3">علاج العصب</h3>
+                <p class="text-gray-600">تخلص من الألم نهائياً مع أحدث أجهزة علاج العصب في جلسة واحدة مريحة.</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg border-b-4 border-sky-500">
+                <h3 class="text-xl font-bold mb-3">تقويم الأسنان</h3>
+                <p class="text-gray-600">حلول متكاملة لتقويم الأسنان للحصول على اصطفاف مثالي وابتسامة متناسقة.</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg border-b-4 border-sky-500">
+                <h3 class="text-xl font-bold mb-3">تنظيف وتبييض الليزر</h3>
+                <p class="text-gray-600">احصل على بياض ناصع وأسنان صحية في دقائق باستخدام تقنية الليزر المتطورة.</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg border-b-4 border-sky-500">
+                <h3 class="text-xl font-bold mb-3">جراحة الوجه والفكين</h3>
+                <p class="text-gray-600">رعاية جراحية متخصصة تحت إشراف طبي دقيق لضمان أفضل النتائج العلاجية.</p>
+            </div>
+
         </div>
     </section>
 
-    <!-- Booking Form -->
+    <!-- التقييمات -->
+    <section class="bg-gray-100 py-16 px-6">
+        <div class="max-w-3xl mx-auto bg-white p-8 rounded-2xl shadow-md">
+            <div class="flex items-center justify-between mb-6">
+                <h3 class="text-2xl font-bold">تقييمات المراجعين</h3>
+                <div class="text-yellow-500 text-2xl">★★★★★</div>
+            </div>
+            <p class="text-gray-700 italic mb-4">"أنصح بالتعامل مع الدكتور إسلام زويد بدون أي تردد؛ دكتور يشتغل بضمير وأمانة عالية ويخاف الله في شغله، يده خفيفة جداً ويشرح كل خطوة ليريح المراجع نفسياً. طلعت من عنده بنتيجة ممتازة تفتح النفس تخليني أبتسم بكل ثقة. والمنسقة أيضاً رائعة جداً."</p>
+            <p class="font-bold text-sky-700">5.0 نجوم من 213 مراجع موثق على جوجل</p>
+        </div>
+    </section>
+
+    <!-- نموذج الحجز -->
     <section class="py-16 px-6 max-w-lg mx-auto">
         <h2 class="text-2xl font-bold text-center mb-8">احجز موعدك الآن</h2>
-        <form class="space-y-4">
-            <input type="text" placeholder="الاسم الكريم" class="w-full p-4 rounded-xl border border-gray-300 focus:ring-2 focus:ring-sky-500 outline-none">
-            <input type="tel" placeholder="رقم الجوال" class="w-full p-4 rounded-xl border border-gray-300 focus:ring-2 focus:ring-sky-500 outline-none">
-            <select class="w-full p-4 rounded-xl border border-gray-300">
-                <option>اختر الخدمة المطلوبة</option>
+        <form id="bookingForm" class="space-y-4">
+            <input type="text" id="name" placeholder="الاسم الكريم" class="w-full p-4 border rounded-lg" required>
+            <input type="tel" id="phone" placeholder="رقم الجوال" class="w-full p-4 border rounded-lg" required>
+            <select id="service" class="w-full p-4 border rounded-lg">
                 <option>زراعة الأسنان</option>
-                <option>تبييض الأسنان</option>
+                <option>ابتسامة هوليوود</option>
+                <option>علاج العصب</option>
+                <option>تقويم الأسنان</option>
+                <option>تنظيف وتبييض الليزر</option>
+                <option>جراحة الوجه والفكين</option>
             </select>
-            <button class="w-full bg-sky-900 text-white py-4 rounded-xl font-bold hover:bg-sky-800 transition">إرسال طلب الحجز</button>
+            <button type="submit" class="w-full bg-medical text-white py-4 rounded-lg font-bold hover:bg-gray-800 transition">إرسال الطلب عبر واتساب</button>
         </form>
     </section>
 
-    <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-8 text-center text-sm">
-        <p>العنوان: RHGA4169، 7593 ابن سينا، الرياض 12282</p>
-        <p class="mt-2 text-gray-500">جميع الحقوق محفوظة © 2024</p>
-    </footer>
-
-    <!-- Sticky Bottom Bar -->
-    <div class="fixed bottom-0 left-0 right-0 bg-white p-4 shadow-2xl flex gap-4 md:hidden z-50">
-        <a href="tel:966544239856" class="flex-1 bg-gray-800 text-white py-3 rounded-lg text-center font-bold">اتصال</a>
-        <a href="https://wa.me/966544239856" class="flex-1 bg-green-500 text-white py-3 rounded-lg text-center font-bold">واتساب</a>
+    <!-- Sticky Footer -->
+    <div class="fixed bottom-0 left-0 right-0 bg-white border-t p-4 flex gap-4 md:hidden">
+        <a href="tel:+966544239856" class="flex-1 bg-sky-600 text-white text-center py-3 rounded-lg font-bold">اتصال</a>
+        <a href="https://wa.me/966544239856" class="flex-1 bg-green-500 text-white text-center py-3 rounded-lg font-bold">واتساب</a>
     </div>
+
+    <script>
+        document.getElementById('bookingForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = document.getElementById('name').value;
+            const phone = document.getElementById('phone').value;
+            const service = document.getElementById('service').value;
+            const msg = `مرحباً دكتور إسلام، أرغب في حجز موعد. الاسم: ${name}، الجوال: ${phone}، الخدمة المطلوبة: ${service}`;
+            window.location.href = `https://wa.me/966544239856?text=${encodeURIComponent(msg)}`;
+        });
+    </script>
 
 </body>
 </html>
