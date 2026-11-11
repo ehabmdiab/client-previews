@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عيادات دان لطب الأسنان | الرياض</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Cairo', sans-serif; }
+        .hero-gradient { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Top Bar -->
+    <div class="bg-teal-900 text-white text-xs py-2 text-center">
+        معاينة حصرية صُممت خصيصاً لـ عيادات دان لطب الأسنان - قابلة للتخصيص بالكامل وربطها بنطاقكم الخاص
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero-gradient text-white py-16 px-6 text-center">
+        <h1 class="text-4xl md:text-5xl font-bold mb-6">ابتسامتك المثالية تبدأ من هنا في الرياض</h1>
+        <p class="text-lg mb-8 text-gray-300">نقدم رعاية سنية متكاملة بأحدث التقنيات العالمية في عيادات دان</p>
+        <div class="flex flex-col md:flex-row gap-4 justify-center">
+            <a href="https://wa.me/966582229050" class="bg-teal-500 hover:bg-teal-600 px-8 py-3 rounded-full font-bold transition">حجز كشف عبر واتساب</a>
+            <a href="tel:+966582229050" class="border border-white hover:bg-white hover:text-teal-900 px-8 py-3 rounded-full font-bold transition">اتصل بنا الآن</a>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section class="py-16 px-6 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-12">خدماتنا المتميزة</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            
+            <div class="bg-white p-6 rounded-xl shadow-lg border-b-4 border-teal-500">
+                <h3 class="text-xl font-bold mb-3">زراعة الأسنان الفورية</h3>
+                <p class="text-gray-600">استعد وظيفة وجمال أسنانك في جلسة واحدة مع تقنيات الزراعة الحديثة.</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg border-b-4 border-teal-500">
+                <h3 class="text-xl font-bold mb-3">ابتسامة هوليوود (الفينير)</h3>
+                <p class="text-gray-600">احصل على ابتسامة المشاهير بتركيبات فينير عالية الجودة ودقيقة التصميم.</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg border-b-4 border-teal-500">
+                <h3 class="text-xl font-bold mb-3">علاج العصب والجذور</h3>
+                <p class="text-gray-600">علاج دقيق ومريح للتخلص من آلام الأسنان والحفاظ على سنك الطبيعي.</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg border-b-4 border-teal-500">
+                <h3 class="text-xl font-bold mb-3">تقويم الأسنان</h3>
+                <p class="text-gray-600">حلول تقويمية متطورة (شفاف ومعدني) لتصحيح اصطفاف الأسنان بفعالية.</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg border-b-4 border-teal-500">
+                <h3 class="text-xl font-bold mb-3">تبييض الأسنان بالليزر</h3>
+                <p class="text-gray-600">ابتسامة ناصعة البياض في جلسة واحدة باستخدام تقنية الليزر الآمنة.</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg border-b-4 border-teal-500">
+                <h3 class="text-xl font-bold mb-3">جراحة الوجه والفكين</h3>
+                <p class="text-gray-600">خدمات جراحية تخصصية تحت إشراف نخبة من الأطباء ذوي الخبرة.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="bg-gray-100 py-16 px-6 text-center">
+        <div class="max-w-2xl mx-auto bg-white p-8 rounded-2xl shadow-md">
+            <h3 class="text-2xl font-bold mb-4">تقييمات عملائنا</h3>
+            <div class="text-yellow-500 text-2xl mb-2">★★★★☆ <span class="text-gray-700 text-lg">4.3 / 5</span></div>
+            <p class="text-gray-500 mb-6">بناءً على 385 تقييم موثق على جوجل</p>
+            <blockquote class="italic text-gray-700 border-r-4 border-teal-500 pr-4">
+                "تجربة زيارة موعد مؤكد يوم الاربعاء بتاريخ ١٤٤٨/٠٣/٢٧هـ تقييم التجربة: ١٠/٣ الاسعار: عالية جداً جداً جداا"
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Booking Form -->
+    <section class="py-16 px-6 max-w-lg mx-auto">
+        <h2 class="text-2xl font-bold text-center mb-8">احجز موعدك الآن</h2>
+        <form id="bookingForm" class="space-y-4">
+            <input type="text" id="name" placeholder="الاسم الكريم" class="w-full p-3 border rounded-lg" required>
+            <input type="tel" id="phone" placeholder="رقم الجوال" class="w-full p-3 border rounded-lg" required>
+            <select id="service" class="w-full p-3 border rounded-lg">
+                <option>زراعة الأسنان الفورية</option>
+                <option>ابتسامة هوليوود</option>
+                <option>تقويم الأسنان</option>
+            </select>
+            <button type="submit" class="w-full bg-teal-900 text-white py-3 rounded-lg font-bold">إرسال الطلب عبر واتساب</button>
+        </form>
+    </section>
+
+    <!-- Sticky Footer -->
+    <div class="fixed bottom-0 w-full bg-white border-t p-4 flex gap-4 md:hidden">
+        <a href="tel:+966582229050" class="flex-1 bg-gray-800 text-white text-center py-3 rounded-lg font-bold">اتصال</a>
+        <a href="https://wa.me/966582229050" class="flex-1 bg-green-600 text-white text-center py-3 rounded-lg font-bold">واتساب</a>
+    </div>
+
+    <script>
+        document.getElementById('bookingForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = document.getElementById('name').value;
+            const phone = document.getElementById('phone').value;
+            const service = document.getElementById('service').value;
+            const msg = `مرحباً، أرغب بحجز موعد. الاسم: ${name}، الجوال: ${phone}، الخدمة: ${service}`;
+            window.location.href = `https://wa.me/966582229050?text=${encodeURIComponent(msg)}`;
+        });
+    </script>
+
+</body>
+</html>
